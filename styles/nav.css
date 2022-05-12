@@ -17,7 +17,7 @@ nav li:hover {
     border-radius: 5px;
 }
 
-nav ul {
+nav>ul {
     display: flex;
 }
 
@@ -49,4 +49,13 @@ nav ul {
     background-color: lightgray;
     padding: 0 10px;
     border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
 }
