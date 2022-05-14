@@ -53,6 +53,7 @@ nav>ul {
 
 .dropdown {
     display: none;
+    background-color: gray;
 }
 
 nav>ul>li:hover>ul {
